@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["node_modules", "build", "coverage"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "serviceworker": true
+  },
+  "plugins": ["jest", "prettier"],
+  "extends": ["plugin:jest/recommended", "prettier"],
+  "rules": {
+    "no-var": "error",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error",
+    "max-lines-per-function": ["warn", 40],
+    "no-shadow": "off",
+    "prettier/prettier": "error"
+  }
+}

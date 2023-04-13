@@ -1,0 +1,26 @@
+$font-family-primary: "Open Sans", sans-serif;
+$font-family-secondary: "Montserrat", sans-serif;
+$font-size-base: 16px;
+
+.primary {
+  @include font-primary;
+}
+
+.secondary {
+  @include font-secondary;
+}
+
+.text-large {
+  @include font-size(20px);
+  @include font-weight(700);
+}
+
+.text-medium {
+  @include font-size(16px);
+  @include font-weight(500);
+}
+
+.text-small {
+  @include font-size(14px);
+  @include font-weight(400);
+}

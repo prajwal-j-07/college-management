@@ -1,0 +1,15 @@
+@mixin color-primary {
+  color: $primary-color;
+}
+
+@mixin background-primary {
+  background-color: $primary-color;
+}
+
+@mixin color-secondary {
+  color: $secondary-color;
+}
+
+@mixin background-secondary {
+  background-color: $secondary-color;
+}
