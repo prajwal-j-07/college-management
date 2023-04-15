@@ -29,7 +29,7 @@
 > Read docs here: [Forking a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 2. Clone the project from the forked repo
-
+q
 ```
     git clone https://github.com/<username>/<fork-name>
 ```
